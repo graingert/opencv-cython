@@ -6,7 +6,7 @@
 {{{
 import scipy
 import pylab
-from zzopencv import *
+from zopencv import *
 l=scipy.lena().astype(numpy.float32)
 l2=l.copy()
 cvLaplace(l,l2,3)
@@ -17,7 +17,7 @@ pylab.show()
 {{{
 import numpy
 import scipy
-from zzopencv import *
+from zopencv import *
 CV_VALUE=1
 src=scipy.lena().astype(numpy.uint8)
 ## initialize default contour
