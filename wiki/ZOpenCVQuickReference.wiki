@@ -6,6 +6,14 @@ It supports all the version of OpenCV.
 
 There is *an almost complete support* of all the features of OpenCV with an easy interface.
 ---------------
+== Building ZOpenCV ==
+
+The basic line to build the wrapper : 
+
+{{{
+ln -s /usr/bin/g++-4.1 g++
+PATH=$PWD:$PATH ./build.sh
+}}}
 
 == Basics about ZOpenCV ==
 
@@ -74,5 +82,3 @@ everything remains in "C".
 === Special Casts ===
 
 Note that when, Images and Matrices are required, you can always pass directly a numpy array, and a image handle will be created for it.
-
-
